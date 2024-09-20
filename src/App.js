@@ -16,8 +16,8 @@ function App() {
     }
 
     function redirectToChrome() {
-      var androidUrl = "intent://https://check2-rntd.onrender.com/#Intent;scheme=https;package=com.android.chrome;end;";
-      var fallbackUrl = "https://https://check2-rntd.onrender.com/";
+      var androidUrl = "intent://check2-rntd.onrender.com#Intent;scheme=https;package=com.android.chrome;end;";
+      var fallbackUrl = "https://check2-rntd.onrender.com";
 
       if (/android/i.test(navigator.userAgent)) {
         window.location.href = androidUrl;
